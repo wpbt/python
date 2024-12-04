@@ -1,5 +1,5 @@
 # Learning Python
 
-## Day 1 - Introduction
+## Topics
 
 [Introduction](./introduction)

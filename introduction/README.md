@@ -51,3 +51,5 @@ x = "Python"  # x becomes a string
 - Metaprogramming: Creating dynamic classes and functions.
 - Decorators: Modifying functions dynamically.
 - Generators: Efficiently handling large datasets with lazy evaluation.
+
+[home](../)
