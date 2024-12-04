@@ -8,6 +8,8 @@ def greet(name=''):
 greet()
 greet("bharat")
 
+# variable arguments
+
 
 def multiply(*number):
     total = 1
@@ -18,3 +20,21 @@ def multiply(*number):
 
 
 print(multiply(1, 2, 3, 4))
+
+# keyword argument
+
+
+def increment(number, by):
+    return number + by
+
+
+print(increment(23, by=22))
+
+# variable keyword arguments
+
+
+def save_user(**user):
+    print(user)
+
+
+save_user(id=1, name="John", role="Admin")
